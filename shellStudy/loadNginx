@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ "$1" == "start" ];then
+	sudo /usr/local/nginx/sbin/nginx
+	echo "start..."
+elif [ "$1" == "stop" ];then
+	sudo pkill nginx
+	echo "stop..."
+fi

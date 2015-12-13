@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p "input filename:" filename
+test -e $filename || echo "filename does not exist" || exit 0 
+test -f $filename && echo "filename is regular file" && exit 0 
+test -d $filename && echo "filename is directory" && exit 0 
+
+

@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "please input your group:" Group
+group=${Group:-"1001"}
+awk -F ":" '{print $1 "\tgroup:" $4}' /etc/passwd | grep "$group"
