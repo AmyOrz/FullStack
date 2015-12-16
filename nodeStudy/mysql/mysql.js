@@ -51,4 +51,4 @@ var queryData = function(){
             console.log("query data successful");
         }
     );
-}
+};

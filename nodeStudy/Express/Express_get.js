@@ -2,8 +2,7 @@
 var express = require('express');
 var app = express();
 
-app.get('/index.htm', function (req, res) {
-    res.type("text/html");
+app.get('/index.html', function (req, res) {
     res.sendFile( __dirname + "/" + "a.htm" );
 })
 
