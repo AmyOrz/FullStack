@@ -2,29 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9e727af-68b7-4b38-9450-cf59358c943a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeStudy/formData/newForm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeStudy/formData/newFormData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeStudy/public/js/jquery-1.7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeStudy/public/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescriptStudy/demo3/joint.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescriptStudy/demo3/joints2.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescriptStudy/demo4/Class1.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescriptStudy/demo4/Class2.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescriptStudy/demo4/Class3.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescriptStudy/demo4/Class4.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescriptStudy/demo5/Valition.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescriptStudy/demo5/ZipCodeValitor.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescriptStudy/demo5/nameSpace1.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeStudy/text/fuck.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeStudy/text/fuck2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nodeStudy/text/json.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/nodeStudy/text/test.html" afterPath="$PROJECT_DIR$/nodeStudy/Express/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeStudy/Promise/fn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeStudy/Promise/hehe.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeStudy/Promise/promise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeStudy/Promise/promise_mysql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeStudy/testFull/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeStudy/testFull/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeStudy/testFull/mysqlTest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeStudy/testFull/queryData.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeStudy/Express/Express_get.js" afterPath="$PROJECT_DIR$/nodeStudy/Express/Express_get.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeStudy/Express/Express_static.js" afterPath="$PROJECT_DIR$/nodeStudy/Express/Express_static.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeStudy/formData/FromData.html" afterPath="$PROJECT_DIR$/nodeStudy/formData/FromData.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeStudy/formData/formData.js" afterPath="$PROJECT_DIR$/nodeStudy/formData/formData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeStudy/mysql/mysql.js" afterPath="$PROJECT_DIR$/nodeStudy/mysql/mysql.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeStudy/Stream/Stream-pipe.js" afterPath="$PROJECT_DIR$/nodeStudy/Stream/Stream-pipe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nodeStudy/public/js/main.js" afterPath="$PROJECT_DIR$/nodeStudy/public/js/main.js" />
     </list>
     <ignored path="fullStack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,31 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Express_static.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodeStudy/Express/Express_static.js">
+      <file leaf-file-name="queryData.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nodeStudy/testFull/queryData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.061674">
+              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="promise.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodeStudy/Promise/promise.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formData.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nodeStudy/formData/formData.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1585903">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nodeStudy/Express/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6666665">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -80,7 +58,17 @@
         <entry file="file://$PROJECT_DIR$/nodeStudy/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysqlTest.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodeStudy/testFull/mysqlTest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -91,8 +79,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -107,18 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/typescriptStudy/demo1/var.ts" />
-        <option value="$PROJECT_DIR$/typescriptStudy/demo1/enum.ts" />
-        <option value="$PROJECT_DIR$/typescriptStudy/demo2/interface.ts" />
-        <option value="$PROJECT_DIR$/typescriptStudy/demo2/interface2.ts" />
-        <option value="$PROJECT_DIR$/typescriptStudy/demo2/test.ts" />
-        <option value="$PROJECT_DIR$/typescriptStudy/demo2/interface4.js" />
-        <option value="$PROJECT_DIR$/typescriptStudy/demo2/interface4.ts" />
-        <option value="$PROJECT_DIR$/typescriptStudy/demo2/interface5.ts" />
-        <option value="$PROJECT_DIR$/typescriptStudy/demo2/interface3.ts" />
-        <option value="$PROJECT_DIR$/typescriptStudy/demo2/interface3Test.js" />
-        <option value="$PROJECT_DIR$/typescriptStudy/demo2/interface3Test.ts" />
-        <option value="$PROJECT_DIR$/typescriptStudy/demo2/interface6.ts" />
         <option value="$PROJECT_DIR$/typescriptStudy/demo2/interface7.ts" />
         <option value="$PROJECT_DIR$/typescriptStudy/demo2/interface8.ts" />
         <option value="$PROJECT_DIR$/typescriptStudy/demo3/joint.ts" />
@@ -158,6 +134,18 @@
         <option value="$PROJECT_DIR$/nodeStudy/Express/index.html" />
         <option value="$PROJECT_DIR$/nodeStudy/Express/Express_static.js" />
         <option value="$PROJECT_DIR$/nodeStudy/formData/formData.js" />
+        <option value="$PROJECT_DIR$/nodeStudy/http/path.js" />
+        <option value="$PROJECT_DIR$/nodeStudy/testFull/Express_static.js" />
+        <option value="$PROJECT_DIR$/nodeStudy/public/js/main.js" />
+        <option value="$PROJECT_DIR$/nodeStudy/testFull/mysql.js" />
+        <option value="$PROJECT_DIR$/nodeStudy/Promise/promose.js" />
+        <option value="$PROJECT_DIR$/nodeStudy/Promise/promise.js" />
+        <option value="$PROJECT_DIR$/nodeStudy/Promise/hehe.txt" />
+        <option value="$PROJECT_DIR$/nodeStudy/Promise/promise_mysql.js" />
+        <option value="$PROJECT_DIR$/nodeStudy/testFull/mysqlTest.js" />
+        <option value="$PROJECT_DIR$/nodeStudy/testFull/main.js" />
+        <option value="$PROJECT_DIR$/nodeStudy/Promise/fn.js" />
+        <option value="$PROJECT_DIR$/nodeStudy/testFull/queryData.js" />
       </list>
     </option>
   </component>
@@ -197,9 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,52 +232,14 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fullStack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fullStack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodeStudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fullStack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fullStack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodeStudy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="formData" />
+              <option name="myItemId" value="testFull" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,34 +251,34 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nodeStudy/testFull" />
+      <recent name="$PROJECT_DIR$/nodeStudy/fullStack/src/public/img" />
+      <recent name="$PROJECT_DIR$/nodeStudy/fullStack/src/public/js" />
+      <recent name="$PROJECT_DIR$/nodeStudy/fullStack/src" />
+      <recent name="$PROJECT_DIR$/nodeStudy/fullStack/webroot/js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/nodeStudy/fullStack" />
       <recent name="$PROJECT_DIR$/nodeStudy/fullStack/src/lib" />
       <recent name="$PROJECT_DIR$/nodeStudy/Express/test1" />
       <recent name="$PROJECT_DIR$/nodeStudy/Express/test1/js" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/nodeStudy/fullStack/src/public/img" />
-      <recent name="$PROJECT_DIR$/nodeStudy/fullStack/src/public/js" />
-      <recent name="$PROJECT_DIR$/nodeStudy/fullStack/src" />
-      <recent name="$PROJECT_DIR$/nodeStudy/fullStack/webroot/js" />
-      <recent name="$PROJECT_DIR$/nodeStudy/public" />
-    </key>
   </component>
-  <component name="RunManager" selected="Node.js.Express_static.js">
-    <configuration default="false" name="formData.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="formData.js" working-dir="$PROJECT_DIR$/nodeStudy/formData">
+  <component name="RunManager" selected="Node.js.fn.js">
+    <configuration default="false" name="Express_static.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="$PROJECT_DIR$/nodeStudy/testFull/main.js" working-dir="$PROJECT_DIR$/nodeStudy/testFull">
       <method />
     </configuration>
-    <configuration default="false" name="newFormData.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="newFormData.js" working-dir="$PROJECT_DIR$/nodeStudy/formData">
+    <configuration default="false" name="mysql.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="$PROJECT_DIR$/nodeStudy/testFull/mysqlTest.js" working-dir="$PROJECT_DIR$/nodeStudy/testFull">
       <method />
     </configuration>
-    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="$PROJECT_DIR$/nodeStudy/Express/test1/index.js" working-dir="$PROJECT_DIR$/nodeStudy/Express/test1/js">
+    <configuration default="false" name="promise.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="promise.js" working-dir="$PROJECT_DIR$/nodeStudy/Promise">
       <method />
     </configuration>
-    <configuration default="false" name="index.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="$PROJECT_DIR$/nodeStudy/fullStack/main.js" working-dir="$PROJECT_DIR$/nodeStudy/fullStack/src">
+    <configuration default="false" name="promise_mysql.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="promise_mysql.js" working-dir="$PROJECT_DIR$/nodeStudy/Promise">
       <method />
     </configuration>
-    <configuration default="false" name="Express_static.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="Express_static.js" working-dir="$PROJECT_DIR$/nodeStudy/Express">
+    <configuration default="false" name="fn.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="fn.js" working-dir="$PROJECT_DIR$/nodeStudy/Promise">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -700,19 +648,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.formData.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.newFormData.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.index.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.index.js (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.Express_static.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Express_static.js (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.mysql.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.promise.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.promise_mysql.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.fn.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Express_static.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.index.js (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.index.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.newFormData.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.formData.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.fn.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Express_static.js (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.promise_mysql.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.mysql.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.promise.js" />
       </list>
     </recent_temporary>
   </component>
@@ -726,12 +674,13 @@
       <workItem from="1450009145861" duration="3423000" />
       <workItem from="1450059474841" duration="13448000" />
       <workItem from="1450146569401" duration="13541000" />
-      <workItem from="1450242919669" duration="20215000" />
+      <workItem from="1450242919669" duration="20382000" />
+      <workItem from="1450324835972" duration="15185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50627000" />
+    <option name="totallyTimeSpent" value="65979000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -747,7 +696,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.251932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28286853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24780877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -791,10 +740,28 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/nodeStudy/Express/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/typescriptStudy/demo2/interface7.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -806,14 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodeStudy/fs/fs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9158416">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.84653467">
           <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,7 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26732674">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.35643566">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28712872">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -923,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17504051">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,7 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.90437603">
           <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.029173419">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -947,7 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.029173419">
           <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -955,14 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08752026">
           <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodeStudy/mysql/mysql.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -981,7 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6666667">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16740088">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1005,13 +946,106 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nodeStudy/formData/psb (1).png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/fs/fs_directory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/upImg/lib/requestHander.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/Express/Express_get.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.07048458">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/Express/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/Express/Express_static.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/http/path.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/upImg/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35682818">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/upImg/lib/node.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/mysql/mysql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.26872247">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/fs/fs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/Promise/hehe.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/formData/formData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3171806">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nodeStudy/formData/newForm.html">
@@ -1030,7 +1064,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeStudy/fs/fs_directory.js">
+    <entry file="file://$PROJECT_DIR$/nodeStudy/Promise/promise_mysql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3171806">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeStudy/testFull/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1038,26 +1080,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeStudy/upImg/lib/requestHander.js">
+    <entry file="file://$PROJECT_DIR$/nodeStudy/testFull/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.16740088">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeStudy/upImg/lib/node.js">
+    <entry file="file://$PROJECT_DIR$/nodeStudy/Promise/promise.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodeStudy/upImg/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35682818">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1065,39 +1099,31 @@
     <entry file="file://$PROJECT_DIR$/nodeStudy/public/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeStudy/Express/index.html">
+    <entry file="file://$PROJECT_DIR$/nodeStudy/Promise/fn.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.6740088">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeStudy/Express/Express_get.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.07048458">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nodeStudy/Express/Express_static.js">
+    <entry file="file://$PROJECT_DIR$/nodeStudy/testFull/mysqlTest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nodeStudy/formData/formData.js">
+    <entry file="file://$PROJECT_DIR$/nodeStudy/testFull/queryData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1585903">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="2.061674">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding />
         </state>
       </provider>

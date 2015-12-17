@@ -1,11 +1,10 @@
 $(function(){
     init();
-
     function init(){
         $.get(
             "/index",
             function(data){
-                console.log(data)
+                $("#name").html(JSON.stringify(data));
             }
         )
     }
