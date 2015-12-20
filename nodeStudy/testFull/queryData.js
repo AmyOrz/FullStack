@@ -6,10 +6,12 @@ var queryData = (function(){
             Table:"user",
             resultData:null
         };
-    clienConnect();
-    createPromise();
-    getData();
-
+    function init() {
+        clienConnect();
+        createPromise();
+        getData();
+    }
+    init();
     function clienConnect(){
         me.client = mysql.createConnection({
             user:"root",
@@ -44,11 +46,6 @@ var queryData = (function(){
         }
     }
 
-    function stdErr(err){
-        console.log(err);
-        me.client.end();
-    }
-
     function getData() {
         me.connectMysql("select * from " + me.Table).
         then(me.queryData).
@@ -64,7 +61,7 @@ var queryData = (function(){
                 }
             }
             me.resultData = rows;
-        }, stdErr);
+        }, console.error);
     }
 
     return me;
