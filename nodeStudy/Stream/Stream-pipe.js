@@ -5,3 +5,5 @@ var readStream = fs.createReadStream("mysql/mysqlTest.js");
 var writeStream = fs.createWriteStream("text/fuck2.js");
 
 readStream.pipe(writeStream);
+
+console.log("is ok!");

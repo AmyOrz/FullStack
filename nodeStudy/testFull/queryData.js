@@ -1,6 +1,6 @@
 var queryData = (function(){
     var mysql = require("mysql"),
-        Q = require("q"),
+        RSVP = require("rsvp"),
         me = {
             client:null,
             Table:"user",
@@ -21,7 +21,7 @@ var queryData = (function(){
     }
 
     function createPromise(){
-        me.connectMysql = function(query){
+       /* me.connectMysql = function(query){
             var deferred = Q.defer();
             me.client.query("use ceshi",function(err,results){
                if(err){
@@ -43,13 +43,35 @@ var queryData = (function(){
                 }
             });
             return def.promise;
-        }
+        }*/
+        me.connectMysql = new RSVP.Promise(function(resolve,reject){
+           me.client.query("use ceshi",function(err,result){
+               if(err){
+                   reject(err);
+               }else{
+                   resolve(query);
+               }
+           })
+        });
+        me.queryData = new RSVP.Promise(function(resolve,reject){
+            me.client.query(query,function(err,results,field){
+               if(err){
+                   reject(err);
+               } else{
+                   resolve(results,field);
+               }
+            });
+        });
     }
 
     function getData() {
-        me.connectMysql("select * from " + me.Table).
+        me.connectMysql.then(function(query){
+            me.queryData(query);
+        })
+        /*me.connectMysql("select * from " + me.Table).
         then(me.queryData).
-        done(function (result, field) {
+        finally(function (result, field) {
+            console.log(result)
             var rows = {
                 total: result.length,
                 results: []
@@ -61,12 +83,13 @@ var queryData = (function(){
                 }
             }
             me.resultData = rows;
-        }, console.error);
+        }, console.error);*/
     }
 
     return me;
 }());
 
-exports.Query = function(){
-    return queryData.resultData;
-};
+console.log(queryData.resultData)
+//exports.Query = function(){
+//    return queryData.resultData;
+//};

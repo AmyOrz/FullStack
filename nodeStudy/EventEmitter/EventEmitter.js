@@ -3,12 +3,12 @@
 var eventEmitter = require("events").EventEmitter;
 var event = new eventEmitter();
 
-event.on("fuck",function(){
-   console.log("fuck this1");
+event.on("fuck",function(say){
+   console.log("fuck this1 "+say);
 });
 
 setTimeout(function(){
-   event.emit("fuck");
+   event.emit("fuck","hehe");
 },2000);
 
 //可以同时监听多个事件监听器
@@ -16,4 +16,6 @@ setTimeout(function(){
 event.addListener("fuck",function(){
    console.log("fuck this2");
 });
+
+
 

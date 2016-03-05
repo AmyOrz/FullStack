@@ -1,7 +1,7 @@
 function ready(fn){
     if(window.addEventListener){
         document.addEventListener("DOMContentLoaded",function(){
-            document.removeEventListener("DOMContentLoaded",arguments.callee,false)
+            document.removeEventListener("DOMContentLoaded",arguments.callee,false);
             fn();
         },false);
     }else if(window.attachEvent){
