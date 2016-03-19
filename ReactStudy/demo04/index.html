@@ -7,6 +7,7 @@
   </head>
   <body>
     <div id="example"></div>
+    <div id="fuck"></div>
     <script type="text/babel">
       var HelloMessage = React.createClass({
         render: function() {
@@ -15,9 +16,20 @@
       });
 
       ReactDOM.render(
-        <HelloMessage name="John" />,
+        <HelloMessage name="nima" />,
         document.getElementById('example')
       );
+
+      var Hello = React.createClass({    //组件名必须大写
+        render:function(){
+          return <h1>fuck you {this.props.className}</h1>;
+        }
+      });
+
+      ReactDOM.render(
+              <Hello name="nima" className="hehe"/>,
+              document.getElementById("fuck")
+      )
     </script>
   </body>
 </html>

@@ -12,7 +12,7 @@
           return (
             <ol>
               {
-                React.Children.map(this.props.children, function (child) {
+                React.Children.map(this.props.children, function (child) {  //遍历子节点
                   return <li>{child}</li>;
                 })
               }
@@ -28,6 +28,28 @@
         </NotesList>,
         document.body
       );
+
+      var List = React.createClass({
+        render:function(){
+          return (
+                 <ul>
+                  {
+                    React.Children.map(this.props.children,function(item){
+                      return <li>{item}</li>
+                    })
+                  }
+                  </ul>
+          );
+        }
+      });
+      ReactDOM.render(
+              <List>
+            <p>fuck1</p>
+      <p>fuck2</p>
+      <p>fuck3</p>
+              </List>,
+              document.body
+      )
     </script>
   </body>
 </html>

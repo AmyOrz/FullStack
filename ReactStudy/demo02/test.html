@@ -4,6 +4,11 @@
     <script src="../build/react.js"></script>
     <script src="../build/react-dom.js"></script>
     <script src="../build/browser.min.js"></script>
+    <style>
+        #example{
+            margin-top: 120px;
+        }
+    </style>
 </head>
 <body>
 <div id="example"></div>
@@ -19,6 +24,14 @@
     </div>,
             document.getElementById("example")
     );
+    var hehe = [
+            <h1>fuck1</h1>,
+            <h2>fuck2</h2>
+    ]
+  ReactDOM.render(
+          <div>{hehe}</div>,
+          document.getElementById("example")
+  )
 </script>
 </body>
 </html>
