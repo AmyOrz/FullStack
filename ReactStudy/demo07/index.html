@@ -26,6 +26,23 @@ ReactDOM.render(
   <MyComponent />,
   document.getElementById('example')
 );
+      var Component = React.createClass({
+        Click :function(){
+          this.refs.Input.focus();
+        },
+        render:function(){
+          return (
+                  <div>
+                    <input type = "text" ref = "Input" />
+                    <input type = "button" value = "xme" onClick = {this.Click} />
+                  </div>
+          )
+        }
+      })
+      ReactDOM.render(
+              <Component />,
+              document.getElementById("example")
+      )
     </script>
   </body>
 </html>

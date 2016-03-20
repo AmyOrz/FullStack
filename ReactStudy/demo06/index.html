@@ -6,25 +6,27 @@
     <script src="../build/browser.min.js"></script>
   </head>
   <body>
+  <div id = "hehe"></div>
     <script type="text/babel">
 
-      var data = 123;
+      var data = 1324;
 
-      var MyTitle = React.createClass({
+
+
+      var Title = React.createClass({
         propTypes: {
-          title: React.PropTypes.string.isRequired,
+          fuck:React.PropTypes.number.isRequired,
         },
 
-        render: function() {
-          return <h1> {this.props.title} </h1>;
+        render:function(){
+          return <h2>{this.props.fuck}</h2>
         }
-      });
+      })
 
       ReactDOM.render(
-        <MyTitle title={data} />,
-        document.body
-      );
-
+              <Title fuck={data}/>,
+              document.getElementById("hehe")
+      )
     </script>
   </body>
 </html>

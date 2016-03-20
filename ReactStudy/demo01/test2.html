@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    var arr = ["he1","he2","he3"];
+    var Ul = React.createClass({
+        render:function(){
+            return (
+                    <ul>
+                    {
+                        React.Children.map(this.props.children, function (item) {
+                        return <li>{item}</li>
+                        })
+                    }
+                    </ul>
+            )
+        }
+    });
+
+    ReactDOM.render(
+            <Ul>
+                <p>ww1</p>
+    <p>ww2</p>
+    <p>ww3</p>
+            </Ul>
+            ,
+            document.getElementById("example")
+    )
+</script>
+</body>
+</html>

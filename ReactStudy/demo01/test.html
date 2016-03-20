@@ -8,13 +8,23 @@
 <body>
 <div id="example"></div>
 <script type="text/babel">
+    var Opacity = React.createClass({
+       getInitialState:function(){
+           return {liked:false}
+       },
+        handleClick:function(){
+            this.setState({liked:!this.state.liked})
+        },
+        render:function(){
+            var text = this.state.liked?"liked":"fuck like";
+            return(
+                <div onClick = {this.handleClick}>you are {text},hehe{this.props.value}</div>
+            )
+        }
+    });
 
     ReactDOM.render(
-            <span>fuckfuck</span>,
-            document.getElementById("example")
-    )
-    ReactDOM.render(
-            <span>fuckxuck</span>,
+            <Opacity value = "shit"/>,
             document.getElementById("example")
     )
 </script>

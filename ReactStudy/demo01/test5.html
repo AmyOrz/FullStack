@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+    <script src="../build/jquery.min.js" type = "text/javascript"></script>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    var UserGit = React.createClass({
+        getInitialState:function(){
+            return {
+                user:"",
+                url:""
+            }
+        },
+        componentDidMount:function(){
+            $.get(this.props.urlPath,function(data){
+                var rows = data[0];
+                if(this.isMounted()){
+                    this.setState({user:rows.owner.login,url:rows.html_url})
+                }
+            }.bind(this));
+        },
+        render:function(){
+            return (
+                    <div>
+                    {this.state.user} is a good man,his url is {this.state.url}
+                    </div>
+            )
+        }
+    })
+    ReactDOM.render(
+            <UserGit urlPath = "https://api.github.com/users/octocat/gists"/>,
+            document.getElementById("example")
+    )
+</script>
+</body>
+</html>
