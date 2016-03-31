@@ -14,12 +14,23 @@
         <div>
         {
           names.map(function (name) {
-            return <div>Hello, {name}!</div>
           })
         }
         </div>,
         document.getElementById('example')
       );
+
+      var arr = ["yh1","yh2","yh3"];
+      ReactDOM.render(
+      <div>
+      {
+        arr.map(function(item){
+          return <p>fuck,{item}</p>
+        })
+      }
+      </div>,
+              document.body
+      )
     </script>
   </body>
 </html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+  </head>
+  <body>
+    <div id="example"></div>
+    <script type="text/babel">
+      var List = React.createClass({
+        getInitialState:function(){
+          return {opacity:1}
+        },
+        componentDidMount:function(){
+          this.loop = setInterval(function(){
+            var opacity = this.state.opacity;
+            opacity -= 0.1;
+            if(opacity < 0.1){
+              opacity = 1
+            }
+            this.setState({
+              opacity:opacity
+            })
+          }.bind(this),300)
+        },
+        render:function(){
+          return (
+                  <div style = {{opacity:this.state.opacity}}>this.prop.name</div>
+          )
+
+        }
+      })
+      ReactDOM.render(
+        <List name = "fuck this" />,
+        document.getElementById('example')
+      );
+    </script>
+  </body>
+</html>
