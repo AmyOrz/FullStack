@@ -1,5 +1,5 @@
 #*args 可变参数，接受一个tuple#
-#**kw 关键字参数，坚守一个dict（map）#
+#**kw 关键字参数，接受一个dict（map）#
 def calc(*num):
 	sum = 0
 	for n in num:

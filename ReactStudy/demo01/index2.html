@@ -8,33 +8,28 @@
   <body>
     <div id="example"></div>
     <script type="text/babel">
-      var List = React.createClass({
+      var Form = React.createClass({
         getInitialState:function(){
-          return {opacity:1}
+          return {value:"fuck"}
         },
-        componentDidMount:function(){
-          this.loop = setInterval(function(){
-            var opacity = this.state.opacity;
-            opacity -= 0.1;
-            if(opacity < 0.1){
-              opacity = 1
-            }
-            this.setState({
-              opacity:opacity
-            })
-          }.bind(this),300)
+        handle:function(event){
+          this.setState({value:event.target.value})
         },
         render:function(){
+          var val = this.state.value;
           return (
-                  <div style = {{opacity:this.state.opacity}}>this.prop.name</div>
+                  <div>
+                   <input type = 'text' value = {val} onChange = {this.handle} />
+                   <div>{val}</div>
+                  </div>
           )
-
         }
       })
       ReactDOM.render(
-        <List name = "fuck this" />,
-        document.getElementById('example')
-      );
+              <Form />,
+              document.getElementById("example")
+      )
+
     </script>
   </body>
 </html>

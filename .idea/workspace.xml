@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc297c1-789c-4cc9-af0b-cdffaf1f7c43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReactStudy/demo01/index2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReactStudy/demo01/test6.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescriptStudy/demo1/base.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/typescriptStudy/demo1/enum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/typescriptStudy/demo1/enum.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/typescriptStudy/demo1/enum.ts" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReactStudy/demo02/index.html" afterPath="$PROJECT_DIR$/ReactStudy/demo02/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typescriptStudy/demo1/type.js" afterPath="$PROJECT_DIR$/typescriptStudy/demo1/type.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typescriptStudy/demo1/type.js.map" afterPath="$PROJECT_DIR$/typescriptStudy/demo1/type.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typescriptStudy/demo1/type.ts" afterPath="$PROJECT_DIR$/typescriptStudy/demo1/type.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReactStudy/demo01/index2.html" afterPath="$PROJECT_DIR$/ReactStudy/demo01/index2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReactStudy/demo01/test2.html" afterPath="$PROJECT_DIR$/ReactStudy/demo01/test2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/Fn2.py" afterPath="$PROJECT_DIR$/python/Fn2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/python/map.py" afterPath="$PROJECT_DIR$/python/map.py" />
     </list>
     <ignored path="fullStack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,28 +40,38 @@
       <file leaf-file-name="test4.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/test4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.111111">
+            <state vertical-scroll-proportion="-9.851851">
               <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test5.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/test5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15254237">
+            <state vertical-scroll-proportion="-11.333333">
               <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/test3.html">
+      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.518518">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state vertical-scroll-proportion="-6.75">
+              <caret line="21" column="81" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/test2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7627119">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -116,7 +119,6 @@
         <option value="$PROJECT_DIR$/ReactStudy/demo08/test.html" />
         <option value="$PROJECT_DIR$/JsCssStudy/js/getStirngCount.js" />
         <option value="$PROJECT_DIR$/ReactStudy/demo01/test.html" />
-        <option value="$PROJECT_DIR$/ReactStudy/demo01/test2.html" />
         <option value="$PROJECT_DIR$/ReactStudy/demo01/test3.html" />
         <option value="$PROJECT_DIR$/ReactStudy/demo01/test4.html" />
         <option value="$PROJECT_DIR$/ReactStudy/demo01/test5.html" />
@@ -128,6 +130,7 @@
         <option value="$PROJECT_DIR$/typescriptStudy/demo1/base.js" />
         <option value="$PROJECT_DIR$/typescriptStudy/demo1/base.ts" />
         <option value="$PROJECT_DIR$/ReactStudy/demo01/index2.html" />
+        <option value="$PROJECT_DIR$/ReactStudy/demo01/test2.html" />
       </list>
     </option>
   </component>
@@ -137,10 +140,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1431" />
-    <option name="y" value="24" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
     <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -167,9 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,6 +222,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -660,11 +663,12 @@
       <workItem from="1458552208268" duration="3115000" />
       <workItem from="1458652288912" duration="5285000" />
       <workItem from="1459410242718" duration="1043000" />
+      <workItem from="1459477609331" duration="881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49746000" />
+    <option name="totallyTimeSpent" value="50627000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -676,7 +680,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1431" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -957,13 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8518518">
-          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ReactStudy/demo10/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.25233644">
@@ -1024,23 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/test6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4661017">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48135594">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,24 +1034,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/test4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.111111">
+        <state vertical-scroll-proportion="-9.851851">
           <caret line="21" column="78" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/test3.html">
+    <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/test6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.518518">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.4881356">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/test5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15254237">
+        <state vertical-scroll-proportion="-11.333333">
           <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/test3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3898305">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.75">
+          <caret line="21" column="81" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReactStudy/demo01/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7627119">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding />
         </state>
       </provider>
