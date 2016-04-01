@@ -19,3 +19,22 @@ s.name = "fck"
 #s.age = 123  is wrong  because age not exist __slots__
 
 
+# @property is decorator,execute be called,change fn become attr
+
+class Animal(object):
+	def __init__(self,name):
+		self._name = name
+
+	@property
+	def name(self):
+	    	return self._name
+	
+	@name.setter
+	def name(self,val):
+		if not isinstance(val,str):
+			raise ValueError("name is string")
+		self._name = val
+
+a = Animal("fck")
+print a.name
+a.name = 123
