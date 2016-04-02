@@ -8,25 +8,26 @@
   <body>
     <div id="example"></div>
     <script type="text/babel">
-      var Form = React.createClass({
-        getInitialState:function(){
-          return {value:"fuck"}
-        },
-        handle:function(event){
-          this.setState({value:event.target.value})
-        },
-        render:function(){
-          var val = this.state.value;
-          return (
-                  <div>
-                   <input type = 'text' value = {val} onChange = {this.handle} />
-                   <div>{val}</div>
-                  </div>
-          )
+      var Ul = React.createClass({
+        render:function() {
+
+            return (
+                    < ul >
+                    {
+                        React.Children.map(this.props.children, function (item) {
+                        return <li> {item} </li>
+                        })
+                    }
+                    </ul >
+            )
         }
-      })
+      });
       ReactDOM.render(
-              <Form />,
+              <Ul>
+                <p>f1</p>
+                <p>f2</p>
+                <p>f3</p>
+              </Ul>,
               document.getElementById("example")
       )
 

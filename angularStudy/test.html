@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src = "js/angular.min.js"></script>
+</head>
+<body>
+    <form ng-app = "myApp"  name = "fuck" ng-init = "myText = 'fuck this you mother'">
+
+        Email: <input type="email" name = "myEmail" ng-model = "myText">
+
+        <p>value:{{fuck.myEmail.$valid}}</p>
+        <p>Dirty:{{fuck.myEmail.$dirty}}</p>
+    </form>
+    <script>
+        var app = angular.module("myApp",[]);
+        app.controller("myCtrl",function($scope){
+            $scope.name = "fuck this";
+        });
+    </script>
+</body>
+</html>
