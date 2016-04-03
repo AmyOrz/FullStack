@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src = "js/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app = "myApp" ng-controller="myCon">
+        <button ng-click = "toggle()">xme</button>
+        <div ng-show ="myVal">
+            fName: <input type="text" ng-model = "fName">
+            lName: <input type="text" ng-model = "lName">
+            <p>{{fName+","+lName}}</p>
+        </div>
+    </div>
+    <script>
+        var app = angular.module("myApp",[]);
+        app.controller("myCon",function($scope){
+            $scope.fName = "fuck"
+            $scope.lName = "this"
+            $scope.myVal = "false"
+            $scope.toggle = function(){
+                $scope.myVal = !$scope.myVal
+            }
+        });
+    </script>
+</body>
+</html>

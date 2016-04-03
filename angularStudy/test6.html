@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src = "js/angular.min.js"></script>
+</head>
+<body>
+    <form ng-app = "myApp"  name = "fuck" ng-controller = "myCon">
+        <p>
+        用户名：<input type="text" name = "user" ng-model = "user" required>
+        <span style = "color:red" ng-show = "fuck.user.$invalid&&fuck.user.$dirty"></span>
+        <span ng-show = "fuck.user.$error.required">please input your name</span>
+        </p>
+        <p>
+        邮箱：<input type="email" name = "email" ng-model = "email" required>
+        <span style = "color:red" ng-show = "fuck.email.$dirty&&fuck.email.$invalid"></span>
+        <span ng-show = "fuck.email.$error.required">please input your email</span>
+        <span ng-show = "fuck.email.$error.email">please input right email</span>
+        </p>
+        <input type="submit" ng-disabled = "fuck.user.$dirty&&fuck.user.$invalid || fuck.email.$dirty && fuck.email.$invalid">
+    </form>
+    <script>
+        var app = angular.module("myApp",[]);
+        app.controller("myCon",function($scope){
+            $scope.user = "fuck "
+            $scope.email = "340606700@qq.com"
+        });
+    </script>
+</body>
+</html>

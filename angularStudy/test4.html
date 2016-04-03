@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src = "js/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app = "myApp" ng-controller="myCon">
+        <select ng-model = "selectPeople" ng-options = "x.name for x in people"></select>
+        <p>name:{{selectPeople.name}}</p>
+        <p>age:{{selectPeople.age}}</p>
+    </div>
+    <script>
+        var app = angular.module("myApp",[]);
+        app.controller("myCon",function($scope){
+            $scope.people = [
+                {name:"fck1",age:"1"},
+                {name:"fck2",age:"2"},
+                {name:"fck3",age:"3"},
+                {name:"fck4",age:"4"}
+            ]
+        });
+    </script>
+</body>
+</html>
