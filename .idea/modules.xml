@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/fullStack.iml" filepath="$PROJECT_DIR$/.idea/fullStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phpstudy/phpstudy.iml" filepath="$PROJECT_DIR$/phpstudy/phpstudy.iml" />
     </modules>
   </component>
 </project>

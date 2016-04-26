@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id = "chart1" style = "width:500px;height:300px;"></div>
+    <div id = "chart2" style = "width:500px;height:300px;"></div>
+    <div id = "chart3" style = "width:500px;height:300px;"></div>
+
+    <script type="text/javascript" src = "js/echarts.min.js"></script>
+    <script type="text/javascript" src = "js/chartManage.js"></script>
+    <script type="text/javascript" src = "js/Chart.js"></script>
+    <script type="text/javascript">
+        var option1 = {
+            legend: {
+                data:['最高气温','最低气温']
+            },
+            calculable : true,
+            xAxis : [
+                {
+                    type : 'category',
+                    boundaryGap : false,
+                    data : ['周一','周二','周三','周四','周五','周六','周日']
+                }
+            ],
+            yAxis : [
+                {
+                    type : 'value',
+                    axisLabel : {
+                        formatter: '{value} °C'
+                    }
+                }
+            ],
+            series : [
+                {
+                    name:'最高气温',
+                    type:'line',
+                    data:[11, 11, 15, 13, 12, 13, 10],
+                    markPoint : {
+                        data : [
+                            {type : 'max', name: '最大值'},
+                            {type : 'min', name: '最小值'}
+                        ]
+                    },
+                    markLine : {
+                        data : [
+                            {type : 'average', name: '平均值'}
+                        ]
+                    }
+                },
+
+            ]
+        }
+        var option2 = {
+            legend: {
+                data:['最高气温','最低气温']
+            },
+            calculable : true,
+            xAxis : [
+                {
+                    type : 'category',
+                    boundaryGap : false,
+                    data : ['周一','周二','周三','周四','周五','周六','周日']
+                }
+            ],
+            yAxis : [
+                {
+                    type : 'value',
+                    axisLabel : {
+                        formatter: '{value} °C'
+                    }
+                }
+            ],
+            series : [
+                {
+                    name:'最高气温',
+                    type:'line',
+                    data:[11, 11, 15, 13, 12, 13, 10],
+                    markPoint : {
+                        data : [
+                            {type : 'max', name: '最大值'},
+                            {type : 'min', name: '最小值'}
+                        ]
+                    },
+                    markLine : {
+                        data : [
+                            {type : 'average', name: '平均值'}
+                        ]
+                    }
+                },
+
+            ]
+        }
+        var option3 = {
+
+
+            legend: {
+                data:['最高气温','最低气温']
+            },
+            calculable : true,
+            xAxis : [
+                {
+                    type : 'category',
+                    boundaryGap : false,
+                    data : ['周一','周二','周三','周四','周五','周六','周日']
+                }
+            ],
+            yAxis : [
+                {
+                    type : 'value',
+                    axisLabel : {
+                        formatter: '{value} °C'
+                    }
+                }
+            ],
+            series : [
+                {
+                    name:'最高气温',
+                    type:'line',
+                    data:[11, 11, 15, 13, 12, 13, 10],
+                    markPoint : {
+                        data : [
+                            {type : 'max', name: '最大值'},
+                            {type : 'min', name: '最小值'}
+                        ]
+                    },
+                    markLine : {
+                        data : [
+                            {type : 'average', name: '平均值'}
+                        ]
+                    }
+                },
+
+            ]
+        }
+
+
+        var myChartManage = new ChartManage();
+        myChartManage.addChart("fck1",ChartFactory.createChart("chart1",option1));
+        myChartManage.addChart("fck2",ChartFactory.createChart("chart2",option2));
+        myChartManage.addChart("fck3",ChartFactory.createChart("chart3",option3));
+        myChartManage.Action();
+
+        console.log(myChartManage.getChart("fck2"))
+    </script>
+</body>
+</html>

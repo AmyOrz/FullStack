@@ -1,0 +1,63 @@
+var option = {
+    backgroundColor:"rgba(222,222,222,0.8)",
+    title:{
+        text:"瀑布流Bar",
+        x:"center"
+    },
+    tooltip:{
+        trigger:"axis",
+        axisPointer:{
+            type:"shadow",
+        },
+        formatter: function (param) {
+            return param[1].name + ":" + param[1].value;
+        }
+    },
+    legend:{
+        data:["fuck"],
+        x:"left"
+    },
+    xAxis:{
+        type:"category",
+        data:["周1","周2","周3","周4","周5","周6","周7",]
+    },
+    yAxis:{
+        type:"value"
+    },
+    series:[
+        {
+            name:"fck",
+            type:'bar',
+            stack:"hehe",
+            itemStyle:{
+              normal:{
+                  backgroundColor:"rgba(0,0,0,0)",
+                  color:"rgba(0,0,0,0)"
+              },
+              emphasis:{
+                  backgroundColor:"rgba(0,0,0,0)",
+                  color:"rgba(0,0,0,0)"
+              }
+            },
+            data:[0,100,80,60,0]
+        },
+        {
+            name:"fuck",
+            type:"bar",
+            stack:"hehe",
+            itemStyle:{
+                normal:{
+                    barBorderRadius:10,
+                    color:"red",
+                    label:{
+                        show:true,
+                        position:"inline"
+                    }
+                }
+            },
+            data:[200,30,40,40,50]
+        }
+    ]
+};
+var myChart = echarts.init(document.getElementById("chart"));
+myChart.setOption(option)

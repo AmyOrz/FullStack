@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id = "main" style="width:600px;height:400px;"></div>
+    <script type="text/javascript" src = "echarts.js"></script>
+    <script>
+        require.config({
+            paths:{
+                echarts:"./dist"
+            }
+        });
+        require(
+                [
+                        "echarts",
+                        "echarts/chart/line"
+                ],
+                function(ec){
+                    var myChart = ec.init(document.getElementById("main"));
+                    var option = {
+                        title:{
+                            text:"年龄趋势图"
+                        },
+                        tooltip:{
+                            trigger:"axis",
+                            formatter:"{b}:{c}"
+                        },
+                        legend:{
+                            data:["年龄"],
+                            x:"right"
+                        },
+                        xAxis:[
+                            {
+                                type:"category",
+                                boundaryGap:false,
+                                splitLine:{
+                                    show:false
+                                },
+                                data:["周1","周2","周3"],
+                            }
+                        ],
+                        yAxis:[
+                            {
+                                type:"value",
+                                axisLabel:{
+                                    formatter:"{value}岁"
+                                },
+                                axisLine:{
+                                    show:false
+                                }
+                            }
+                        ],
+                        series:[
+                            {
+                                name:"年龄",
+                                type:"line",
+                                itemStyle:{
+                                    normal:{
+                                        color:"red"
+                                    }
+                                },
+                                data:[43,65,97]
+                            }
+                        ]
+
+                    }
+                    myChart.setOption(option);
+                }
+        )
+    </script>
+</body>
+</html>
