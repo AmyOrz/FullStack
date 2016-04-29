@@ -1,18 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+<html>
 <body>
-    <div id = "test"></div>
-    <script type = "text/javascript" src = "js/jquery.min.js"></script>
-    <script>
-        $(function(){
-            $.get("./php/form.php",function(data){
-                $("#test").html(data);
-            })
-        });
-    </script>
+
+<form action="./php/imgLoad.php" method="post"
+enctype="multipart/form-data">
+<label for="file">Filename:</label>
+<input type="file" name="file" id="file"><br>
+<input type="submit" name="submit" value="Submit">
+</form>
+
 </body>
 </html>

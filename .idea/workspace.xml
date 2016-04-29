@@ -2,77 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdc297c1-789c-4cc9-af0b-cdffaf1f7c43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsCssStudy/css/filter/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsCssStudy/css/filter/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsCssStudy/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsCssStudy/css/filter/filter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsCssStudy/css/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JsCssStudy/css/text.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/angularStudy/diy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/OO/OO.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/OO/js/Chart.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/OO/js/chartManage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/OO/js/echarts.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/bar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/bar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/chord.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/eventRiver.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/force.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/funnel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/gauge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/heatmap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/k.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/line.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/radar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/scatter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/tree.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/treemap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/venn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/dist/chart/wordCloud.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/echart.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/echart2/echarts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/gauge.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/js/bar/pubu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/js/echarts.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/js/gauge.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/js/json/china.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/js/json/near.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/js/json/near7.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/js/macarons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/js/map/biaozhun.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/js/zhexian/biaozhun.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/js/zhexian/change.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/js/zhexian/mianji.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/echartStudy/zhexian.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpstudy/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpstudy/fck.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpstudy/input.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpstudy/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpstudy/php.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpstudy/php/form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpstudy/php/getuser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpstudy/php/test.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpstudy/phpstudy.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescriptStudy/demo1/interface.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescriptStudy/deploy/src/hello.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typescriptStudy/deploy/tsconfig.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/JsCssStudy/js/ready.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/typescriptStudy/demo1/base.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/typescriptStudy/demo1/base.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/typescriptStudy/demo1/base.ts" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JsCssStudy/css/base.css" afterPath="$PROJECT_DIR$/JsCssStudy/css/sass/base.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JsCssStudy/css/base.css.map" afterPath="$PROJECT_DIR$/JsCssStudy/css/sass/base.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JsCssStudy/css/base.scss" afterPath="$PROJECT_DIR$/JsCssStudy/css/sass/base.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JsCssStudy/css/script.css" afterPath="$PROJECT_DIR$/JsCssStudy/css/sass/script.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JsCssStudy/css/script.css.map" afterPath="$PROJECT_DIR$/JsCssStudy/css/sass/script.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/JsCssStudy/css/script.scss" afterPath="$PROJECT_DIR$/JsCssStudy/css/sass/script.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpstudy/php/imgLoad.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpstudy/fck.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpstudy/input.html" afterPath="$PROJECT_DIR$/phpstudy/input.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpstudy/php/test.php" afterPath="$PROJECT_DIR$/phpstudy/php/test.php" />
     </list>
     <ignored path="fullStack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,7 +34,38 @@
     <favorites_list name="fullStack" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpstudy/php/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpstudy/input.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imgLoad.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/phpstudy/php/imgLoad.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9457627">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -121,7 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/angularStudy/test2.html" />
         <option value="$PROJECT_DIR$/angularStudy/test3.html" />
         <option value="$PROJECT_DIR$/angularStudy/test4.html" />
         <option value="$PROJECT_DIR$/angularStudy/test5.html" />
@@ -167,11 +131,12 @@
         <option value="$PROJECT_DIR$/phpstudy/php/getuser.php" />
         <option value="$PROJECT_DIR$/phpstudy/php/input.php" />
         <option value="$PROJECT_DIR$/phpstudy/php/form.php" />
-        <option value="$PROJECT_DIR$/phpstudy/input.html" />
-        <option value="$PROJECT_DIR$/phpstudy/php/test.php" />
         <option value="$PROJECT_DIR$/phpstudy/php.html" />
         <option value="$PROJECT_DIR$/phpstudy/fck.php" />
         <option value="$PROJECT_DIR$/JsCssStudy/css/text.html" />
+        <option value="$PROJECT_DIR$/phpstudy/php/test.php" />
+        <option value="$PROJECT_DIR$/phpstudy/input.html" />
+        <option value="$PROJECT_DIR$/phpstudy/php/imgLoad.php" />
       </list>
     </option>
   </component>
@@ -196,9 +161,9 @@
   <component name="PhpXdebugProxy" ide_key="netbeans-xdebug" host="jichengdiaoding.com" port="80" />
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1301" />
-    <option name="height" value="772" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -225,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,13 +211,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
       <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches">
+        <subPane />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,6 +226,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.php.debug.xdebug.proxy" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../starera-signup" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -741,12 +707,14 @@
       <workItem from="1461562044170" duration="1329000" />
       <workItem from="1461566098640" duration="1558000" />
       <workItem from="1461567679186" duration="4513000" />
-      <workItem from="1461577509725" duration="5205000" />
+      <workItem from="1461577509725" duration="8882000" />
+      <workItem from="1461640809473" duration="9000" />
+      <workItem from="1461722559770" duration="7000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137721000" />
+    <option name="totallyTimeSpent" value="141414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,7 +726,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1131,7 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,15 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.851852">
           <caret line="107" column="6" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpstudy/input.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33559322">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,21 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding>
-            <marker date="1461568300769" expanded="true" signature="199:237" placeholder="select * fro..Article..." />
-            <marker date="1461568300769" expanded="true" signature="199:241" placeholder="select * fro..Article..." />
-            <marker date="1461568300769" expanded="true" signature="301:411" placeholder="..." />
-            <marker date="1461568300769" expanded="true" signature="329:411" placeholder="..." />
-            <marker date="1461568300769" expanded="true" signature="334:411" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpstudy/php/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2440678">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,18 +1127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.666666">
           <caret line="37" column="39" selection-start-line="37" selection-start-column="39" selection-end-line="37" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpstudy/fck.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21355931">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <marker date="1461580204920" expanded="true" signature="267:289" placeholder="select * fro..Category..." />
-            <marker date="1461580204920" expanded="true" signature="300:321" placeholder="select * fro..Article..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1203,10 +1134,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6338983">
           <caret line="45" column="105" selection-start-line="45" selection-start-column="105" selection-end-line="45" selection-end-column="105" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpstudy/php/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpstudy/input.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpstudy/php/imgLoad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9457627">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
