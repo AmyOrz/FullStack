@@ -6,8 +6,35 @@
     <script type="text/javascript" src="ajax.js"></script>
 </head>
 <body>
+    <div id = "ww" title = "hehe">fck</div>
     <script>
-        ajax("GET","text.json");
+        function $$(select){
+            return new $$.prototype.init(select);
+        }
+        $$.fn = $$.prototype = {
+            constructor:$$,
+
+            init:function(select){
+                var results = document.querySelectorAll(select);
+                for(var i = 0,len = results.length;i<len;i++){
+                    this[i] = results[i];
+                }
+                return this;
+            },
+            attr:function(ele,val){
+                if(val == void 0){
+                    return this[0].getAttribute(ele);
+                }else{
+                    this[0].setAttribute(ele,val);
+                    return this;
+                }
+            }
+        };
+        $$.fn.init.prototype = $$.fn;
+
+        $$("#ww").attr("fck","hehe");
+        console.log($$(".aa"))
+
     </script>
 </body>
 </html>

@@ -2,21 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>test</title>
-    <script src = "js/angular.min.js"></script>
+    <title>Title</title>
+    <script src="js/angular.min.js"></script>
+
 </head>
-<body ng-app = "myApp" ng-controller="myCtl">>
-    <fuck></fuck>
-    <script>
-        var app = angular.module("myApp",[]);
-        app.controller("myCtrl",function($scope){
-            $scope.name = "fuck this";
-        });
-        app.directive("fuck", function () {
-            return {
-                template:"<input type = 'text' ng-model = 'fck'>"
-            };
-        })
-    </script>
+<body ng-app = "myApp1" ng-controller = "app1Ctrl">
+<p style = "color:red">{{fck}}</p>
+<div id="div2" ng-app="myApp2" ng-controller="app2Ctrl">
+    <div>{{hehe}}</div>
+</div>
+
+<script src="js/app2.js"></script>
+<script type="text/javascript">
+    angular.bootstrap(angular.element(document.getElementById("div2")),["myApp2"]);
+</script>
+
+<script src="js/app1.js"></script>
 </body>
 </html>

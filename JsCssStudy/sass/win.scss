@@ -1,0 +1,23 @@
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:2px;
+}
+header{
+  text-align: center;
+  div {
+    color:red;
+    p{
+      color:black;
+    }
+    div{
+      transition: 2s;
+
+    }
+  }
+}
+section{
+  overflow: hidden;
+  div{
+    tab-size: 1;
+  }
+}

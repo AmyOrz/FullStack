@@ -6,24 +6,24 @@
     <script src = "js/angular.min.js"></script>
 </head>
 <body>
+
     <div ng-app = "myApp" ng-controller="myCon">
-        <button ng-click = "toggle()">xme</button>
-        <div ng-show ="myVal">
-            fName: <input type="text" ng-model = "fName">
-            lName: <input type="text" ng-model = "lName">
-            <p>{{fName+","+lName}}</p>
-        </div>
+        <form name= "Form">
+            <input type="email" ng-model = "mail" name = "email" required>
+            <div ng-show = "!(Form.email.$dirty && Form.email.$invalid)">
+                firstName: <input type="text" ng-model = "Fname">
+                lastName: <input type="text" ng-model = "Lname">
+                <p>{{Fname + "," + Lname}}</p>
+            </div>
+        </form>
     </div>
     <script>
         var app = angular.module("myApp",[]);
         app.controller("myCon",function($scope){
-            $scope.fName = "fuck"
-            $scope.lName = "this"
-            $scope.myVal = "false"
-            $scope.toggle = function(){
-                $scope.myVal = !$scope.myVal
-            }
+            $scope.Fname = "fuck";
+            $scope.Lname = "this";
         });
+
     </script>
 </body>
 </html>

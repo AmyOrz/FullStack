@@ -1,0 +1,91 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>菜鸟教程(runoob.com)</title>
+    <link href="http://www.runoob.com/static/ionic/css/ionic.min.css" rel="stylesheet">
+    <style>
+        img{
+            z-index: 20;
+            width:100px;
+            height:100px;
+            margin-left:150px;
+        }
+    </style>
+    <script src="js/angular.min.js"></script>
+    <script src="js/ionic-angular.min.js"></script>
+    <script src="http://www.runoob.com/static/ionic/js/ionic.bundle.min.js"></script>
+    <script type="text/javascript">
+        angular.module('starter', ['ionic'])
+
+                .run(function($ionicPlatform) {
+                    $ionicPlatform.ready(function() {
+                        // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
+                        // for form inputs)
+                        if(window.cordova && window.cordova.plugins.Keyboard) {
+                            cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+                        }
+                        if(window.StatusBar) {
+                            StatusBar.styleDefault();
+                        }
+                    });
+                })
+
+                .controller( 'actionsheetCtl',['$scope','$timeout' ,'$http',function($scope,$timeout,$http){
+                    $scope.aaa = false;
+                    $scope.fck = "qwdqd";
+                    $scope.items=[
+                        {
+                            "name":"nima"
+                        },
+                        {
+                            "name":"JavaScript"
+                        }, {
+                            "name":"nima"
+                        },
+
+                    ];
+                    $scope.hehe = false;
+                    $scope.hasMore = true;
+                    $scope.do_infinite = function() {
+                        $scope.hehe = true;
+                        if(!$scope.hasMore){
+                            $scope.$broadcast('scroll.refreshComplete');
+                            return;
+                        }
+                        $http.get("js/test.json").success(function(newItems){
+                            $timeout(function(){
+                                $scope.hehe = false;
+                                $scope.items = $scope.items.concat(newItems.item);
+                                $scope.hasMore = false;
+
+                            },2000);
+                        }).finally(function() {
+                            $timeout(function(){
+                                $scope.hasMore = true;
+                                $scope.$broadcast('scroll.infiniteScrollComplete');
+                            },2000);
+                        });
+                    }
+                }])
+    </script>
+</head>
+<body ng-app="starter" ng-controller="actionsheetCtl" >
+
+<div ng-show = 'aaa'>
+    <ion-pane>
+        <ion-content >
+            <ion-list>
+                <ion-item ng-repeat="x in items" >
+                    <div>{{x.name}}</div>
+                </ion-item>
+                <img src="1.gif" ng-show = "hehe" alt="">
+            </ion-list>
+            <ion-infinite-scroll  ng-if="hasMore" icon="1.gif" on-infinite="do_infinite()" immediate-check="false"></ion-infinite-scroll>
+        </ion-content>
+    </ion-pane>
+</div>
+<div >{{fck}}</div>
+
+</body>
+</html>

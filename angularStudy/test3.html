@@ -8,6 +8,10 @@
 <body>
     <div ng-app = "myApp" ng-controller="myCon">
         <p>{{Url}}</p>
+
+        <ul>
+            <li ng-repeat = "x in names" title = "{{x.val}}">{{x.name}}</li>
+        </ul>
     </div>
     <script>
         var app = angular.module("myApp",[]);
@@ -16,6 +20,14 @@
             $timeout(function () {
                 $scope.Url = "fck this "
             },2000)
+
+            $scope.names = [
+                {name:"mi",val:1},
+                {name:"mi2",val:2},
+                {name:"mi3",val:3},
+                {name:"mi4",val:4},
+                {name:"mi5",val:5},
+            ]
         });
     </script>
 </body>
